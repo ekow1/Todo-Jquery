@@ -1,0 +1,95 @@
+body {
+  background-color: bisque;
+}
+
+main {
+  margin: 0 auto;
+
+  width: 50%;
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.newDiv {
+  background-color: #024059;
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+svg {
+  width: 100%;
+  height: 15px;
+  align-self: center;
+  font-size: 7rem;
+  border: none;
+  color: aliceblue;
+  padding: 12px 5px !important;
+  border-radius: 2px;
+  fill: red;
+  cursor: pointer;
+}
+
+.final,
+ul > div {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 260px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #024059;
+  padding: 2px 0;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  background: bisque;
+}
+
+::placeholder {
+  background-color: transparent;
+  padding: 2px 20px;
+  text-align: center;
+}
+
+.container > svg {
+  width: 20px;
+  height: 20px;
+  fill: #024059;
+  margin-right: 10px;
+}
+
+svg:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
+}
